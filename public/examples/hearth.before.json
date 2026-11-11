@@ -1,0 +1,19 @@
+{
+  "assistant": {
+    "name": "Hearth",
+    "wakeWord": "hello hearth",
+    "volume": 65
+  },
+  "lights": {
+    "living/room": {
+      "brightness": 85,
+      "temperature": 4000
+    },
+    "kitchen": {
+      "brightness": 90
+    }
+  },
+  "routines": ["morning", "away"],
+  "telemetry": true,
+  "timeout": 30
+}

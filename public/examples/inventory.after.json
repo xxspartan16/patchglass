@@ -1,0 +1,22 @@
+{
+  "workshop": "Bench 04",
+  "revision": 2,
+  "bins": [
+    {
+      "id": "A1",
+      "part": "M8 washer",
+      "count": 210
+    },
+    {
+      "id": "A2",
+      "part": "M8 nut",
+      "count": 165
+    }
+  ],
+  "reorder": {
+    "threshold": 80,
+    "enabled": true
+  },
+  "archived": [],
+  "inspected": true
+}

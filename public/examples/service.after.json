@@ -1,0 +1,21 @@
+{
+  "service": "inventory-api",
+  "version": 2,
+  "retry": {
+    "attempts": 5,
+    "delayMs": 500,
+    "jitter": true
+  },
+  "cache": {
+    "ttl": 120,
+    "maxEntries": 5000
+  },
+  "origins": ["http://localhost:3000", "https://example.com"],
+  "features": {
+    "beta~search": true,
+    "audit": {
+      "enabled": true,
+      "retentionDays": 30
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "service": "inventory-api",
+  "version": 1,
+  "retry": {
+    "attempts": 3,
+    "delayMs": 250,
+    "jitter": false
+  },
+  "cache": {
+    "ttl": 60,
+    "maxEntries": 1000
+  },
+  "origins": ["http://localhost:3000"],
+  "legacyRoute": "/v1/stock",
+  "features": {
+    "beta~search": false,
+    "audit": null
+  }
+}
