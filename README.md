@@ -2,6 +2,8 @@
 
 **A local workbench for JSON configuration changes, with a way back.**
 
+[**Live demo → patchglass.vercel.app**](https://patchglass.vercel.app/) · [Brennan's project portfolio](https://brennan-portfolio-jade.vercel.app/)
+
 Patchglass turns two JSON documents into an inspectable migration: a deterministic structural diff, a guarded JSON Patch, and a verified rollback. It is a personal developer tool built around the ordinary problem of changing a configuration without overlooking an important value.
 
 **Status:** working v0.1. All examples are synthetic. This project was developed with AI assistance; its implementation, limitations, and tests are included for review. It is not a record of commercial deployments or prior employment work.
